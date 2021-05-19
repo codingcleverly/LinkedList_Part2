@@ -121,11 +121,6 @@ class LinkedList {
             
         }
 
-
-
-
-
-
         void getFirstNode()
         {
             cout<<head->data<<endl;  //first node
@@ -143,10 +138,8 @@ int main()
     c.append(49);
     c.append(1299);
     //c.erase(19);
-    
-    
+   
     c.insertBefore(3333, 49);
-    
     
     c.display();
    
